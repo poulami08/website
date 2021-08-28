@@ -29,24 +29,51 @@
             </div>
             <i id="cd" class="fa fa-bars" onclick="showMenu()"></i>
             </nav>
-        <h1>About Us</h1>
+        <h1>Contact Us</h1>
 
     </section>
-    <!------about us content----->
-    <section class="about-us">
+    <!------contact us----->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471218.38559717475!2d88.04952484283032!3d22.676385756918386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1630151208391!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+    <section class="contact-us">
         <div class="row">
-            <div class="about-col">
-                <h1>We Are The World's Largest University</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sunt fuga esse dolor veritatis culpa non exercitationem cumque, tempore quia, omnis assumenda sed quaerat sint alias. Eligendi dolorum sit dolorem recusandae sed libero quis unde, doloremque illum voluptas deleniti, dignissimos enim natus ab! Temporibus, similique quia eum eos expedita harum.</p>
-                <a href="" class="hero red">EXPLORE NOW</a>
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ road,ABC Building</h5>
+                        <p>Kolkata,West Bengal, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 9147852364</h5>
+                        <p>Monday to Saturday, 10 AM to 6 PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
             </div>
-            <div class="about-col">
-                <img src="images/about.jpg" alt="about us">
-            </div>
-
+                <div class="contact-col">
+                    <form action="mail.php" method="post">
+                        <input type="text" name="name"placeholder="Enter your name" required>
+                        <input type="text" name="email"placeholder="Enter email address" required>
+                        <input name="subject"type="text" placeholder="Enter your subject" required>
+                        <textarea  rows="8" name="text"placeholder="Message"></textarea>
+                        <button type="submit" class="hero red">Send Message</button>
+                    </form>
+                </div>
         </div>
-
     </section>
+    
      
        <!------Footer----->
        <section class="footer">
